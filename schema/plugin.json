@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "rose_pine_jupyterlab",
+  "description": "rose_pine_jupyterlab settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
