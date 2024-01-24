@@ -34,11 +34,11 @@ pip install rose_pine_jupyterlab
 ## Gallery
 
 - Rosé Pine
-![Rosé Pine](assets/rose-pine.png)
+  ![Rosé Pine](assets/rose-pine.png)
 - Rosé Pine Moon
-![Rosé Pine Moon](assets/rose-pine-moon.png)
+  ![Rosé Pine Moon](assets/rose-pine-moon.png)
 - Rosé Pine Dawn
-![Rosé Pine Dawn](assets/rose-pine-dawn.png)
+  ![Rosé Pine Dawn](assets/rose-pine-dawn.png)
 
 ## Uninstall
 
