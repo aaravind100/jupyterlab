@@ -89,7 +89,7 @@
     "jupyterlab": {
         "extension": true,
         "outputDir": "rose_pine_jupyterlab/labextension",
-        "themePath": "style/rose-pine-index.css"
+        "themePath": "style/index.css"
     },
     "eslintIgnore": [
         "node_modules",

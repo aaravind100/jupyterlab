@@ -5,6 +5,10 @@ import {
 
 import { IThemeManager } from '@jupyterlab/apputils';
 
+import RosePinePallette from './rose-pine';
+import RosePineMoonPallette from './rose-pine-moon';
+import RosePineDawnPallette from './rose-pine-dawn';
+
 /**
  * Initialization data for the rose_pine_jupyterlab extension.
  */
@@ -17,11 +21,23 @@ const plugin: JupyterFrontEndPlugin<void> = {
     console.log('JupyterLab extension rose_pine_jupyterlab is activated!');
     const style = 'rose_pine_jupyterlab/index.css';
 
-    manager.register({
-      name: 'Rosé Pine',
-      isLight: true,
-      load: () => manager.loadCSS(style),
-      unload: () => Promise.resolve(undefined)
+    const pallettes = [
+      RosePinePallette,
+      RosePineMoonPallette,
+      RosePineDawnPallette
+    ];
+
+    pallettes.forEach(Pallette => {
+      const pallette = new Pallette();
+      manager.register({
+        name: pallette.name,
+        isLight: pallette.type === 'light',
+        load: () => {
+          pallette.setColorPallette();
+          return manager.loadCSS(style);
+        },
+        unload: () => Promise.resolve(undefined)
+      });
     });
   }
 };

@@ -34,24 +34,18 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   --jp-shadow-base-lightness: 0;
-  --jp-shadow-umbra-color: rgba(
-    var(--jp-shadow-base-lightness),
-    var(--jp-shadow-base-lightness),
-    var(--jp-shadow-base-lightness),
-    0.2
-  );
-  --jp-shadow-penumbra-color: rgba(
-    var(--jp-shadow-base-lightness),
-    var(--jp-shadow-base-lightness),
-    var(--jp-shadow-base-lightness),
-    0.14
-  );
-  --jp-shadow-ambient-color: rgba(
-    var(--jp-shadow-base-lightness),
-    var(--jp-shadow-base-lightness),
-    var(--jp-shadow-base-lightness),
-    0.12
-  );
+  --jp-shadow-umbra-color: rgba(var(--jp-shadow-base-lightness),
+      var(--jp-shadow-base-lightness),
+      var(--jp-shadow-base-lightness),
+      0.2);
+  --jp-shadow-penumbra-color: rgba(var(--jp-shadow-base-lightness),
+      var(--jp-shadow-base-lightness),
+      var(--jp-shadow-base-lightness),
+      0.14);
+  --jp-shadow-ambient-color: rgba(var(--jp-shadow-base-lightness),
+      var(--jp-shadow-base-lightness),
+      var(--jp-shadow-base-lightness),
+      0.12);
   --jp-elevation-z0: none;
   --jp-elevation-z1: 0 2px 1px -1px var(--jp-shadow-umbra-color),
     0 1px 1px 0 var(--jp-shadow-penumbra-color),
@@ -87,10 +81,10 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   --jp-border-width: 1px;
-  --jp-border-color0: #393552;
-  --jp-border-color1: #393552;
-  --jp-border-color2: #393552;
-  --jp-border-color3: #393552;
+  --jp-border-color0: var(--rp-plt-overlay);
+  --jp-border-color1: var(--rp-plt-overlay);
+  --jp-border-color2: var(--rp-plt-overlay);
+  --jp-border-color3: var(--rp-plt-overlay);
   --jp-border-radius: 2px;
 
   /* UI Fonts
@@ -118,20 +112,20 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   /* Defaults use Material Design specification */
-  --jp-ui-font-color0: #e0def4;
-  --jp-ui-font-color1: #908caa;
-  --jp-ui-font-color2: #6e6a86;
-  --jp-ui-font-color3: #393552;
+  --jp-ui-font-color0: var(--rp-plt-text);
+  --jp-ui-font-color1: var(--rp-plt-subtle);
+  --jp-ui-font-color2: var(--rp-plt-muted);
+  --jp-ui-font-color3: var(--rp-plt-overlay);
 
   /*
    * Use these against the brand/accent/warn/error colors.
    * These will typically go from light to darker, in both a dark and light theme.
    */
 
-  --jp-ui-inverse-font-color0: #232136;
-  --jp-ui-inverse-font-color1: #2a273f;
-  --jp-ui-inverse-font-color2: #393552;
-  --jp-ui-inverse-font-color3: #6e6a86;
+  --jp-ui-inverse-font-color0: var(--rp-plt-base);
+  --jp-ui-inverse-font-color1: var(--rp-plt-surface);
+  --jp-ui-inverse-font-color2: var(--rp-plt-overlay);
+  --jp-ui-inverse-font-color3: var(--rp-plt-muted);
 
   /* Content Fonts
    *
@@ -160,11 +154,11 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-content-heading-font-weight: 500;
 
   /* Defaults use Material Design specification */
-  --jp-content-font-color0: #e0def4;
-  --jp-content-font-color1: #908caa;
-  --jp-content-font-color2: #6e6a86;
-  --jp-content-font-color3: #6e6a86;
-  --jp-content-link-color: #c4a7e7;
+  --jp-content-font-color0: var(--rp-plt-text);
+  --jp-content-font-color1: var(--rp-plt-subtle);
+  --jp-content-font-color2: var(--rp-plt-muted);
+  --jp-content-font-color3: var(--rp-plt-muted);
+  --jp-content-link-color: var(--rp-plt-iris);
   --jp-content-font-family: -apple-system, blinkmacsystemfont, 'Segoe UI',
     helvetica, arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
@@ -197,11 +191,11 @@ all of MD as it is not optimized for dense, information rich UIs.
    * theme these would go from light to dark.
    */
 
-  --jp-layout-color0: #232136;
-  --jp-layout-color1: #232136;
-  --jp-layout-color2: #2a273f;
-  --jp-layout-color3: #393552;
-  --jp-layout-color4: #393552;
+  --jp-layout-color0: var(--rp-plt-base);
+  --jp-layout-color1: var(--rp-plt-base);
+  --jp-layout-color2: var(--rp-plt-surface);
+  --jp-layout-color3: var(--rp-plt-overlay);
+  --jp-layout-color4: var(--rp-plt-overlay);
 
   /* Inverse Layout
    *
@@ -209,41 +203,41 @@ all of MD as it is not optimized for dense, information rich UIs.
    * theme these would go from dark to light.
    */
 
-  --jp-inverse-layout-color0: #e0def4;
-  --jp-inverse-layout-color1: #e0def4;
-  --jp-inverse-layout-color2: #908caa;
-  --jp-inverse-layout-color3: #6e6a86;
-  --jp-inverse-layout-color4: #6e6a86;
+  --jp-inverse-layout-color0: var(--rp-plt-text);
+  --jp-inverse-layout-color1: var(--rp-plt-text);
+  --jp-inverse-layout-color2: var(--rp-plt-subtle);
+  --jp-inverse-layout-color3: var(--rp-plt-muted);
+  --jp-inverse-layout-color4: var(--rp-plt-muted);
 
   /* Brand/accent */
 
-  --jp-brand-color0: #eb6f92;
-  --jp-brand-color1: #3e8fb0;
-  --jp-brand-color2: #ea9a97;
-  --jp-brand-color3: #f6c177;
-  --jp-accent-color0: #9ccfd8;
-  --jp-accent-color1: #c4a7e7;
-  --jp-accent-color2: #9ccfd8;
-  --jp-accent-color3: #9ccfd8;
+  --jp-brand-color0: var(--rp-plt-love);
+  --jp-brand-color1: var(--rp-plt-pine);
+  --jp-brand-color2: var(--rp-plt-rose);
+  --jp-brand-color3: var(--rp-plt-gold);
+  --jp-accent-color0: var(--rp-plt-foam);
+  --jp-accent-color1: var(--rp-plt-iris);
+  --jp-accent-color2: var(--rp-plt-foam);
+  --jp-accent-color3: var(--rp-plt-foam);
 
   /* State colors (warn, error, success, info) */
 
-  --jp-warn-color0: #f6c177;
-  --jp-warn-color1: #f6c177;
-  --jp-warn-color2: #f6c177;
-  --jp-warn-color3: #f6c177;
-  --jp-error-color0: #eb6f92;
-  --jp-error-color1: #eb6f92;
-  --jp-error-color2: #eb6f92;
-  --jp-error-color3: #eb6f92;
-  --jp-success-color0: #3e8fb0;
-  --jp-success-color1: #3e8fb0;
-  --jp-success-color2: #3e8fb0;
-  --jp-success-color3: #3e8fb0;
-  --jp-info-color0: #9ccfd8;
-  --jp-info-color1: #9ccfd8;
-  --jp-info-color2: #9ccfd8;
-  --jp-info-color3: #9ccfd8;
+  --jp-warn-color0: var(--rp-plt-gold);
+  --jp-warn-color1: var(--rp-plt-gold);
+  --jp-warn-color2: var(--rp-plt-gold);
+  --jp-warn-color3: var(--rp-plt-gold);
+  --jp-error-color0: var(--rp-plt-love);
+  --jp-error-color1: var(--rp-plt-love);
+  --jp-error-color2: var(--rp-plt-love);
+  --jp-error-color3: var(--rp-plt-love);
+  --jp-success-color0: var(--rp-plt-pine);
+  --jp-success-color1: var(--rp-plt-pine);
+  --jp-success-color2: var(--rp-plt-pine);
+  --jp-success-color3: var(--rp-plt-pine);
+  --jp-info-color0: var(--rp-plt-foam);
+  --jp-info-color1: var(--rp-plt-foam);
+  --jp-info-color2: var(--rp-plt-foam);
+  --jp-info-color3: var(--rp-plt-foam);
 
   /* Cell specific styles */
 
@@ -251,31 +245,31 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-collapser-width: 8px;
   --jp-cell-collapser-min-height: 20px;
   --jp-cell-collapser-not-active-hover-opacity: 0.6;
-  --jp-cell-editor-background: #2a273f;
-  --jp-cell-editor-border-color: #393552;
-  --jp-cell-editor-box-shadow: inset 0 0 2px #9ccfd8;
+  --jp-cell-editor-background: var(--rp-plt-surface);
+  --jp-cell-editor-border-color: var(--rp-plt-overlay);
+  --jp-cell-editor-box-shadow: inset 0 0 2px var(--rp-plt-foam);
   --jp-cell-editor-active-background: var(--jp-layout-color0);
-  --jp-cell-editor-active-border-color: #3e8fb0;
+  --jp-cell-editor-active-border-color: var(--rp-plt-pine);
   --jp-cell-prompt-width: 64px;
   --jp-cell-prompt-font-family: 'Source Code Pro', monospace;
   --jp-cell-prompt-letter-spacing: 0;
   --jp-cell-prompt-opacity: 1;
   --jp-cell-prompt-not-active-opacity: 0.5;
-  --jp-cell-prompt-not-active-font-color: #6e6a86;
+  --jp-cell-prompt-not-active-font-color: var(--rp-plt-muted);
 
   /* A custom blend of MD grey and blue 600
    * See https://meyerweb.com/eric/tools/color-blend/#546E7A:1E88E5:5:hex */
-  --jp-cell-inprompt-font-color: #c4a7e7;
+  --jp-cell-inprompt-font-color: var(--rp-plt-iris);
 
   /* A custom blend of MD grey and orange 600
    * https://meyerweb.com/eric/tools/color-blend/#546E7A:F4511E:5:hex */
-  --jp-cell-outprompt-font-color: #f6c177;
+  --jp-cell-outprompt-font-color: var(--rp-plt-gold);
 
   /* Notebook specific styles */
 
   --jp-notebook-padding: 10px;
   --jp-notebook-select-background: var(--jp-layout-color1);
-  --jp-notebook-multiselected-color: #393552;
+  --jp-notebook-multiselected-color: var(--rp-plt-overlay);
 
   /* The scroll padding is calculated to fill enough space at the bottom of the
   notebook to show one single-line cell (with appropriate padding) at the top
@@ -283,25 +277,20 @@ all of MD as it is not optimized for dense, information rich UIs.
   pixel so that no scrollbar appears if we have just one single-line cell in the
   notebook. This padding is to enable a 'scroll past end' feature in a notebook.
   */
-  --jp-notebook-scroll-padding: calc(
-    100% - var(--jp-code-font-size) * var(--jp-code-line-height) -
-      var(--jp-code-padding) - var(--jp-cell-padding) - 1px
-  );
+  --jp-notebook-scroll-padding: calc(100% - var(--jp-code-font-size) * var(--jp-code-line-height) - var(--jp-code-padding) - var(--jp-cell-padding) - 1px);
 
   /* Rendermime styles */
 
-  --jp-rendermime-error-background: #2a273f;
-  --jp-rendermime-table-row-background: #393552;
-  --jp-rendermime-table-row-hover-background: #3e8fb0;
+  --jp-rendermime-error-background: var(--rp-plt-surface);
+  --jp-rendermime-table-row-background: var(--rp-plt-overlay);
+  --jp-rendermime-table-row-hover-background: var(--rp-plt-pine);
 
   /* Dialog specific styles */
-  --jp-rp-dialog-background: #232136;
-  --jp-dialog-background: rgba(
-    var(--jp-rp-dialog-background),
-    var(--jp-rp-dialog-background),
-    var(--jp-rp-dialog-background),
-    0.25
-  );
+  --rp-plt-dialog-background: var(--rp-plt-base);
+  --jp-dialog-background: rgba(var(--rp-plt-dialog-background),
+      var(--rp-plt-dialog-background),
+      var(--rp-plt-dialog-background),
+      0.25);
 
   /* Console specific styles */
 
@@ -312,9 +301,9 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-toolbar-border-color: var(--jp-border-color1);
   --jp-toolbar-micro-height: 8px;
   --jp-toolbar-background: var(--jp-layout-color1);
-  --jp-toolbar-box-shadow: 0 0 2px 0 #2a273f;
+  --jp-toolbar-box-shadow: 0 0 2px 0 var(--rp-plt-surface);
   --jp-toolbar-header-margin: 4px 4px 0 4px;
-  --jp-toolbar-active-background: #6e6a86;
+  --jp-toolbar-active-background: var(--rp-plt-muted);
 
   /* Statusbar specific styles */
 
@@ -322,45 +311,45 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Input field styles */
 
-  --jp-input-box-shadow: inset 0 0 2px #9ccfd8;
+  --jp-input-box-shadow: inset 0 0 2px var(--rp-plt-foam);
   --jp-input-active-background: var(--jp-layout-color1);
   --jp-input-hover-background: var(--jp-layout-color1);
-  --jp-input-background: #6e6a86;
+  --jp-input-background: var(--rp-plt-muted);
   --jp-input-border-color: var(--jp-border-color1);
   --jp-input-active-border-color: var(--jp-brand-color1);
 
   /* General editor styles */
 
-  --jp-editor-selected-background: #2a273f;
-  --jp-editor-selected-focused-background: #393552;
+  --jp-editor-selected-background: var(--rp-plt-surface);
+  --jp-editor-selected-focused-background: var(--rp-plt-overlay);
   --jp-editor-cursor-color: var(--jp-ui-font-color0);
 
   /* Code mirror specific styles */
 
-  --jp-mirror-editor-keyword-color: #3e8fb0;
-  --jp-mirror-editor-atom-color: #c4a7e7;
-  --jp-mirror-editor-number-color: #ea9a97;
-  --jp-mirror-editor-def-color: #9ccfd8;
-  --jp-mirror-editor-variable-color: #e0def4;
-  --jp-mirror-editor-variable-2-color: #3e8fb0;
-  --jp-mirror-editor-variable-3-color: #9ccfd8;
-  --jp-mirror-editor-punctuation-color: #3e8fb0;
-  --jp-mirror-editor-property-color: #9ccfd8;
-  --jp-mirror-editor-operator-color: #3e8fb0;
-  --jp-mirror-editor-comment-color: #6e6a86;
-  --jp-mirror-editor-string-color: #f6c177;
-  --jp-mirror-editor-string-2-color: #f6c177;
-  --jp-mirror-editor-meta-color: #908caa;
-  --jp-mirror-editor-qualifier-color: #6e6a86;
-  --jp-mirror-editor-builtin-color: #ea9a97;
-  --jp-mirror-editor-bracket-color: #eb6f92;
-  --jp-mirror-editor-tag-color: #9ccfd8;
-  --jp-mirror-editor-attribute-color: #e0def4;
-  --jp-mirror-editor-header-color: #9ccfd8;
-  --jp-mirror-editor-quote-color: #e0def4;
-  --jp-mirror-editor-link-color: #c4a7e7;
-  --jp-mirror-editor-error-color: #eb6f92;
-  --jp-mirror-editor-hr-color: #908caa;
+  --jp-mirror-editor-keyword-color: var(--rp-plt-pine);
+  --jp-mirror-editor-atom-color: var(--rp-plt-iris);
+  --jp-mirror-editor-number-color: var(--rp-plt-rose);
+  --jp-mirror-editor-def-color: var(--rp-plt-foam);
+  --jp-mirror-editor-variable-color: var(--rp-plt-text);
+  --jp-mirror-editor-variable-2-color: var(--rp-plt-pine);
+  --jp-mirror-editor-variable-3-color: var(--rp-plt-foam);
+  --jp-mirror-editor-punctuation-color: var(--rp-plt-pine);
+  --jp-mirror-editor-property-color: var(--rp-plt-foam);
+  --jp-mirror-editor-operator-color: var(--rp-plt-pine);
+  --jp-mirror-editor-comment-color: var(--rp-plt-muted);
+  --jp-mirror-editor-string-color: var(--rp-plt-gold);
+  --jp-mirror-editor-string-2-color: var(--rp-plt-gold);
+  --jp-mirror-editor-meta-color: var(--rp-plt-subtle);
+  --jp-mirror-editor-qualifier-color: var(--rp-plt-muted);
+  --jp-mirror-editor-builtin-color: var(--rp-plt-rose);
+  --jp-mirror-editor-bracket-color: var(--rp-plt-love);
+  --jp-mirror-editor-tag-color: var(--rp-plt-foam);
+  --jp-mirror-editor-attribute-color: var(--rp-plt-text);
+  --jp-mirror-editor-header-color: var(--rp-plt-foam);
+  --jp-mirror-editor-quote-color: var(--rp-plt-text);
+  --jp-mirror-editor-link-color: var(--rp-plt-iris);
+  --jp-mirror-editor-error-color: var(--rp-plt-love);
+  --jp-mirror-editor-hr-color: var(--rp-plt-subtle);
 
   /* User colors */
 
@@ -378,19 +367,19 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-notebook-icon-color: var(--md-orange-700);
   --jp-json-icon-color: var(--md-orange-700);
   --jp-console-icon-background-color: var(--md-blue-700);
-  --jp-console-icon-color: #e0def4;
+  --jp-console-icon-color: var(--rp-plt-text);
   --jp-terminal-icon-background-color: var(--md-grey-200);
   --jp-terminal-icon-color: var(--md-grey-800);
   --jp-text-editor-icon-color: var(--md-grey-200);
   --jp-inspector-icon-color: var(--md-grey-200);
-  --jp-switch-color: #6e6a86;
+  --jp-switch-color: var(--rp-plt-muted);
   --jp-switch-true-position-color: var(--md-orange-700);
-  --jp-switch-cursor-color: #232136;
+  --jp-switch-cursor-color: var(--rp-plt-base);
   --jp-icon-contrast-color0: var(--md-purple-600);
 
   /* Vega extension styles */
 
-  --jp-vega-background: #232136;
+  --jp-vega-background: var(--rp-plt-base);
 
   /* Sidebar-related styles */
 

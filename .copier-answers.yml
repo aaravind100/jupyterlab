@@ -11,4 +11,3 @@ project_short_description: Soho Vibes for JupyterLab
 python_name: rose_pine_jupyterlab
 repository: https://github.com/aaravind100/jupyterlab
 test: false
-
