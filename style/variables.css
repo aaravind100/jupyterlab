@@ -34,18 +34,24 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   --jp-shadow-base-lightness: 0;
-  --jp-shadow-umbra-color: rgba(var(--jp-shadow-base-lightness),
-      var(--jp-shadow-base-lightness),
-      var(--jp-shadow-base-lightness),
-      0.2);
-  --jp-shadow-penumbra-color: rgba(var(--jp-shadow-base-lightness),
-      var(--jp-shadow-base-lightness),
-      var(--jp-shadow-base-lightness),
-      0.14);
-  --jp-shadow-ambient-color: rgba(var(--jp-shadow-base-lightness),
-      var(--jp-shadow-base-lightness),
-      var(--jp-shadow-base-lightness),
-      0.12);
+  --jp-shadow-umbra-color: rgba(
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    0.2
+  );
+  --jp-shadow-penumbra-color: rgba(
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    0.14
+  );
+  --jp-shadow-ambient-color: rgba(
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    0.12
+  );
   --jp-elevation-z0: none;
   --jp-elevation-z1: 0 2px 1px -1px var(--jp-shadow-umbra-color),
     0 1px 1px 0 var(--jp-shadow-penumbra-color),
@@ -81,10 +87,10 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   --jp-border-width: 1px;
-  --jp-border-color0: var(--rp-plt-overlay);
-  --jp-border-color1: var(--rp-plt-overlay);
-  --jp-border-color2: var(--rp-plt-overlay);
-  --jp-border-color3: var(--rp-plt-overlay);
+  --jp-border-color0: var(—-rp-plt-highlight-high);
+  --jp-border-color1: var(-—rp-plt-highlight-high);
+  --jp-border-color2: var(—-rp-plt-highlight-high);
+  --jp-border-color3: var(—-rp-plt-highlight-high);
   --jp-border-radius: 2px;
 
   /* UI Fonts
@@ -246,7 +252,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-collapser-min-height: 20px;
   --jp-cell-collapser-not-active-hover-opacity: 0.6;
   --jp-cell-editor-background: var(--rp-plt-surface);
-  --jp-cell-editor-border-color: var(--rp-plt-overlay);
+  --jp-cell-editor-border-color: var(--rp-plt-highlight-high);
   --jp-cell-editor-box-shadow: inset 0 0 2px var(--rp-plt-foam);
   --jp-cell-editor-active-background: var(--jp-layout-color0);
   --jp-cell-editor-active-border-color: var(--rp-plt-pine);
@@ -268,8 +274,8 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* Notebook specific styles */
 
   --jp-notebook-padding: 10px;
-  --jp-notebook-select-background: var(--jp-layout-color1);
-  --jp-notebook-multiselected-color: var(--rp-plt-overlay);
+  --jp-notebook-select-background: var(--rp-plt-highlight-low);
+  --jp-notebook-multiselected-color: var(--rp-plt-highlight-low);
 
   /* The scroll padding is calculated to fill enough space at the bottom of the
   notebook to show one single-line cell (with appropriate padding) at the top
@@ -277,7 +283,10 @@ all of MD as it is not optimized for dense, information rich UIs.
   pixel so that no scrollbar appears if we have just one single-line cell in the
   notebook. This padding is to enable a 'scroll past end' feature in a notebook.
   */
-  --jp-notebook-scroll-padding: calc(100% - var(--jp-code-font-size) * var(--jp-code-line-height) - var(--jp-code-padding) - var(--jp-cell-padding) - 1px);
+  --jp-notebook-scroll-padding: calc(
+    100% - var(--jp-code-font-size) * var(--jp-code-line-height) -
+      var(--jp-code-padding) - var(--jp-cell-padding) - 1px
+  );
 
   /* Rendermime styles */
 
@@ -287,10 +296,12 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Dialog specific styles */
   --rp-plt-dialog-background: var(--rp-plt-base);
-  --jp-dialog-background: rgba(var(--rp-plt-dialog-background),
-      var(--rp-plt-dialog-background),
-      var(--rp-plt-dialog-background),
-      0.25);
+  --jp-dialog-background: rgba(
+    var(--rp-plt-dialog-background),
+    var(--rp-plt-dialog-background),
+    var(--rp-plt-dialog-background),
+    0.25
+  );
 
   /* Console specific styles */
 
@@ -320,8 +331,8 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* General editor styles */
 
-  --jp-editor-selected-background: var(--rp-plt-surface);
-  --jp-editor-selected-focused-background: var(--rp-plt-overlay);
+  --jp-editor-selected-background: var(--rp-plt-highlight-low);
+  --jp-editor-selected-focused-background: var(--rp-plt-highlight-low);
   --jp-editor-cursor-color: var(--jp-ui-font-color0);
 
   /* Code mirror specific styles */
@@ -366,12 +377,12 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-jupyter-icon-color: var(--md-orange-900);
   --jp-notebook-icon-color: var(--md-orange-700);
   --jp-json-icon-color: var(--md-orange-700);
-  --jp-console-icon-background-color: var(--md-blue-700);
-  --jp-console-icon-color: var(--rp-plt-text);
-  --jp-terminal-icon-background-color: var(--md-grey-200);
-  --jp-terminal-icon-color: var(--md-grey-800);
-  --jp-text-editor-icon-color: var(--md-grey-200);
-  --jp-inspector-icon-color: var(--md-grey-200);
+  --jp-console-icon-background-color: var(--rp-plt-pine);
+  --jp-console-icon-color: white;
+  --jp-terminal-icon-background-color: var(--rp-plt-text);
+  --jp-terminal-icon-color: var(--rp-plt-base);
+  --jp-text-editor-icon-color: var(--rp-plt-text);
+  --jp-inspector-icon-color: var(--rp-plt-text);
   --jp-switch-color: var(--rp-plt-muted);
   --jp-switch-true-position-color: var(--md-orange-700);
   --jp-switch-cursor-color: var(--rp-plt-base);

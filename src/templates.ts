@@ -22,11 +22,11 @@ export default class Pallette implements BasePallette {
       '$highlightLow'
     );
     document.documentElement.style.setProperty(
-      '—rp-plt-highlight-med',
+      '--rp-plt-highlight-med',
       '$highlightMed'
     );
     document.documentElement.style.setProperty(
-      '—rp-plt-highlight-high',
+      '--rp-plt-highlight-high',
       '$highlightHigh'
     );
   }

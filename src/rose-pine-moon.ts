@@ -22,11 +22,11 @@ export default class Pallette implements BasePallette {
       '#2a283e'
     );
     document.documentElement.style.setProperty(
-      '—rp-plt-highlight-med',
+      '--rp-plt-highlight-med',
       '#44415a'
     );
     document.documentElement.style.setProperty(
-      '—rp-plt-highlight-high',
+      '--rp-plt-highlight-high',
       '#56526e'
     );
   }
