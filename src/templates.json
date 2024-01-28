@@ -1,0 +1,21 @@
+{
+  "name": "$name",
+  "type": "$type",
+  "pallette": {
+    "--rp-plt-base": "$base",
+    "--rp-plt-surface": "$surface",
+    "--rp-plt-overlay": "$overlay",
+    "--rp-plt-muted": "$muted",
+    "--rp-plt-subtle": "$subtle",
+    "--rp-plt-text": "$text",
+    "--rp-plt-love": "$love",
+    "--rp-plt-gold": "$gold",
+    "--rp-plt-rose": "$rose",
+    "--rp-plt-pine": "$pine",
+    "--rp-plt-foam": "$foam",
+    "--rp-plt-iris": "$iris",
+    "--rp-plt-highlight-low": "$highlightLow",
+    "--rp-plt-highlight-med": "$highlightMed",
+    "--rp-plt-highlight-high": "$highlightHigh"
+  }
+}

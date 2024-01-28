@@ -8,7 +8,7 @@ This is built using the jupyterlab [extension-template](https://github.com/jupyt
 
 This is used to generate color variant from the template file.
 
-Modify `style/variables.css` & `src/template.ts` using Rosé Pine variables, then build variants:
+Modify `style/variables.css` & `src/template.json` using Rosé Pine variables, then build variants:
 
 ```sh
 npx @rose-pine/build@latest -t src/templates.ts -o src/

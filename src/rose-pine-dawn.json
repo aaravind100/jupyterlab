@@ -1,0 +1,21 @@
+{
+  "name": "Rosé Pine Dawn",
+  "type": "light",
+  "pallette": {
+    "--rp-plt-base": "#faf4ed",
+    "--rp-plt-surface": "#fffaf3",
+    "--rp-plt-overlay": "#f2e9e1",
+    "--rp-plt-muted": "#9893a5",
+    "--rp-plt-subtle": "#797593",
+    "--rp-plt-text": "#575279",
+    "--rp-plt-love": "#b4637a",
+    "--rp-plt-gold": "#ea9d34",
+    "--rp-plt-rose": "#d7827e",
+    "--rp-plt-pine": "#286983",
+    "--rp-plt-foam": "#56949f",
+    "--rp-plt-iris": "#907aa9",
+    "--rp-plt-highlight-low": "#f4ede8",
+    "--rp-plt-highlight-med": "#dfdad9",
+    "--rp-plt-highlight-high": "#cecacd"
+  }
+}
