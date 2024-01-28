@@ -1,0 +1,21 @@
+{
+  "name": "Rosé Pine",
+  "type": "dark",
+  "pallette": {
+    "--rp-plt-base": "#191724",
+    "--rp-plt-surface": "#1f1d2e",
+    "--rp-plt-overlay": "#26233a",
+    "--rp-plt-muted": "#6e6a86",
+    "--rp-plt-subtle": "#908caa",
+    "--rp-plt-text": "#e0def4",
+    "--rp-plt-love": "#eb6f92",
+    "--rp-plt-gold": "#f6c177",
+    "--rp-plt-rose": "#ebbcba",
+    "--rp-plt-pine": "#31748f",
+    "--rp-plt-foam": "#9ccfd8",
+    "--rp-plt-iris": "#c4a7e7",
+    "--rp-plt-highlight-low": "#21202e",
+    "--rp-plt-highlight-med": "#403d52",
+    "--rp-plt-highlight-high": "#524f67"
+  }
+}
