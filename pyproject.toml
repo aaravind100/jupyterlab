@@ -80,9 +80,14 @@ ignore = ["W002"]
 target-version = "py311"
 line-length = 88
 indent-width = 4
+extend-include = ["*.ipynb"]
 
 [tool.ruff.lint]
-select = ["A", "B", "C", "E", "F", "I", "W"]
+select = ["A", "B", "C", "D", "E", "F", "I", "S", "W", "UP", "RUF"]
+ignore = ["D203", "D213"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["D104", "F401"]
 
 [tool.ruff.format]
 quote-style = "double"
