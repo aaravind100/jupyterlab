@@ -2,6 +2,22 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.1.7
+
+([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.1.6...0a32b0bed802d97d0b34f90d856c759eaecfb4d2))
+
+### Maintenance and upkeep improvements
+
+- Revert "fix: :bug: secret var name" [#10](https://github.com/aaravind100/jupyterlab/pull/10) ([@aaravind100](https://github.com/aaravind100))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2024-05-28&to=2024-05-28&type=c))
+
+[@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2024-05-28..2024-05-28&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.1.6
 
 ([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.1.5...d4e82be3baf220cb46ea2522ef5ca50d7cc94b62))
@@ -17,8 +33,6 @@
 ([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2024-04-10&to=2024-05-28&type=c))
 
 [@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2024-04-10..2024-05-28&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.1.5
 
