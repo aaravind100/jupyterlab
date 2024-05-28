@@ -11,7 +11,7 @@ This is used to generate color variant from the template file.
 Modify `style/variables.css` & `src/template.json` using Rosé Pine variables, then build variants:
 
 ```sh
-npx @rose-pine/build@latest -t src/templates.ts -o src/
+npx @rose-pine/build@latest -t src/templates.json -o src/
 ```
 
 ## Development install
