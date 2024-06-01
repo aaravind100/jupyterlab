@@ -2,6 +2,26 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.1.8
+
+([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.1.7...670f49ce630ebd215c4822437e1fa2c809a07c1d))
+
+### Bugs fixed
+
+- improve menu test color and visibility [#12](https://github.com/aaravind100/jupyterlab/pull/12) ([@aaravind100](https://github.com/aaravind100))
+
+### Documentation improvements
+
+- docs: :memo: update contributing [#11](https://github.com/aaravind100/jupyterlab/pull/11) ([@aaravind100](https://github.com/aaravind100))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2024-05-28&to=2024-06-01&type=c))
+
+[@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2024-05-28..2024-06-01&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.1.7
 
 ([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.1.6...0a32b0bed802d97d0b34f90d856c759eaecfb4d2))
@@ -15,8 +35,6 @@
 ([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2024-05-28&to=2024-05-28&type=c))
 
 [@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2024-05-28..2024-05-28&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.1.6
 
