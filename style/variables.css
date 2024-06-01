@@ -87,10 +87,10 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   --jp-border-width: 1px;
-  --jp-border-color0: var(—-rp-plt-highlight-high);
-  --jp-border-color1: var(-—rp-plt-highlight-high);
-  --jp-border-color2: var(—-rp-plt-highlight-high);
-  --jp-border-color3: var(—-rp-plt-highlight-high);
+  --jp-border-color0: var(--rp-plt-highlight-high);
+  --jp-border-color1: var(--rp-plt-highlight-high);
+  --jp-border-color2: var(--rp-plt-highlight-high);
+  --jp-border-color3: var(--rp-plt-highlight-high);
   --jp-border-radius: 2px;
 
   /* UI Fonts
@@ -122,7 +122,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-ui-font-color0: var(--rp-plt-text);
   --jp-ui-font-color1: var(--rp-plt-subtle);
   --jp-ui-font-color2: var(--rp-plt-muted);
-  --jp-ui-font-color3: var(--rp-plt-overlay);
+  --jp-ui-font-color3: var(--rp-plt-muted);
 
   /*
    * Use these against the brand/accent/warn/error colors.
@@ -131,7 +131,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   --jp-ui-inverse-font-color0: var(--rp-plt-base);
   --jp-ui-inverse-font-color1: var(--rp-plt-surface);
-  --jp-ui-inverse-font-color2: var(--rp-plt-overlay);
+  --jp-ui-inverse-font-color2: var(--rp-plt-muted);
   --jp-ui-inverse-font-color3: var(--rp-plt-muted);
 
   /* Content Fonts
@@ -399,4 +399,21 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* Sidebar-related styles */
 
   --jp-sidebar-min-width: 180px;
+
+  /* Jupyterlab git */
+
+  --jp-git-diff-deleted-color: color-mix(
+    in srgb,
+    var(--rp-plt-rose),
+    var(--rp-plt-text) 15%
+  );
+  --jp-git-diff-deleted-color1: var(--rp-plt-rose);
+  --jp-diff-deleted-color2: var(--rp-plt-rose);
+  --jp-git-diff-added-color: color-mix(
+    in srgb,
+    var(--rp-plt-foam),
+    var(--rp-plt-text) 15%
+  );
+  --jp-git-diff-added-color1: var(--rp-plt-foam);
+  --jp-diff-added-color2: var(--rp-plt-foam);
 }
