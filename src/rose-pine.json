@@ -1,7 +1,7 @@
 {
   "name": "Rosé Pine",
   "type": "dark",
-  "pallette": {
+  "palette": {
     "--rp-plt-base": "#191724",
     "--rp-plt-surface": "#1f1d2e",
     "--rp-plt-overlay": "#26233a",

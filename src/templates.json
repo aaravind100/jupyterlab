@@ -1,7 +1,7 @@
 {
   "name": "$name",
   "type": "$type",
-  "pallette": {
+  "palette": {
     "--rp-plt-base": "$base",
     "--rp-plt-surface": "$surface",
     "--rp-plt-overlay": "$overlay",
