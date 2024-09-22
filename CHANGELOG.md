@@ -2,6 +2,26 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.1.11
+
+([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.1.10...90bc8925902d6b807454c8e014f279eee6aec7a4))
+
+### Enhancements made
+
+- style: :lipstick: change console icon color [#17](https://github.com/aaravind100/jupyterlab/pull/17) ([@aaravind100](https://github.com/aaravind100))
+
+### Maintenance and upkeep improvements
+
+- chores: add & update ci [#16](https://github.com/aaravind100/jupyterlab/pull/16) ([@aaravind100](https://github.com/aaravind100))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2024-09-09&to=2024-09-22&type=c))
+
+[@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2024-09-09..2024-09-22&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.1.10
 
 ([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.1.9...66b219de11a3b88570150d0fff566b05252637cf))
@@ -15,8 +35,6 @@
 ([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2024-07-21&to=2024-09-09&type=c))
 
 [@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2024-07-21..2024-09-09&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.1.9
 
