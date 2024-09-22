@@ -16,6 +16,7 @@
     "--rp-plt-iris": "#c4a7e7",
     "--rp-plt-highlight-low": "#2a283e",
     "--rp-plt-highlight-med": "#44415a",
-    "--rp-plt-highlight-high": "#56526e"
+    "--rp-plt-highlight-high": "#56526e",
+    "--rp-plt-white": "#faf4ed"
   }
 }
