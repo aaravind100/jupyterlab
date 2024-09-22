@@ -23,6 +23,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
       manager.register({
         name: palette.name,
         isLight: palette.type === 'light',
+        themeScrollbars: true,
         load: () => {
           palette.setColorPalette();
           return manager.loadCSS(style);
