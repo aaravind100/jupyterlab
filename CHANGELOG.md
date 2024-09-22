@@ -2,6 +2,27 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.1.12
+
+([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.1.11...de08e3a0593edb24fff351e26d609e5a95477b49))
+
+### Enhancements made
+
+- tweak icon colors [#18](https://github.com/aaravind100/jupyterlab/pull/18) ([@aaravind100](https://github.com/aaravind100))
+
+### Documentation improvements
+
+- docs: :memo: update docs [#20](https://github.com/aaravind100/jupyterlab/pull/20) ([@aaravind100](https://github.com/aaravind100))
+- docs: :memo: update screenshots [#19](https://github.com/aaravind100/jupyterlab/pull/19) ([@aaravind100](https://github.com/aaravind100))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2024-09-22&to=2024-09-22&type=c))
+
+[@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2024-09-22..2024-09-22&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.1.11
 
 ([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.1.10...90bc8925902d6b807454c8e014f279eee6aec7a4))
@@ -19,8 +40,6 @@
 ([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2024-09-09&to=2024-09-22&type=c))
 
 [@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2024-09-09..2024-09-22&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.1.10
 
