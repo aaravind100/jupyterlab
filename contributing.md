@@ -53,7 +53,7 @@ jupyter lab build --minimize=False
 ## Development uninstall
 
 ```bash
-pip uninstall rose_pine_jupyterlab
+pip uninstall rose-pine-jupyterlab
 ```
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
