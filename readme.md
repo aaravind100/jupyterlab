@@ -20,7 +20,7 @@
 To install the extension, execute:
 
 ```bash
-pip install rose_pine_jupyterlab
+pip install rose-pine-jupyterlab
 ```
 
 ## Usage
@@ -34,18 +34,18 @@ pip install rose_pine_jupyterlab
 ## Gallery
 
 - Rosé Pine
-  ![Rosé Pine](assets/rose-pine.png)
+  ![Rosé Pine](https://raw.githubusercontent.com/aaravind100/jupyterlab/refs/heads/main/assets/rose-pine.png)
 - Rosé Pine Moon
-  ![Rosé Pine Moon](assets/rose-pine-moon.png)
+  ![Rosé Pine Moon](https://raw.githubusercontent.com/aaravind100/jupyterlab/refs/heads/main/assets/rose-pine-moon.png)
 - Rosé Pine Dawn
-  ![Rosé Pine Dawn](assets/rose-pine-dawn.png)
+  ![Rosé Pine Dawn](https://raw.githubusercontent.com/aaravind100/jupyterlab/refs/heads/main/assets/rose-pine-dawn.png)
 
 ## Uninstall
 
 To remove the extension, execute:
 
 ```bash
-pip uninstall rose_pine_jupyterlab
+pip uninstall rose-pine-jupyterlab
 ```
 
 ## Contributing
