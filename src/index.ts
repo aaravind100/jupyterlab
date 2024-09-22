@@ -5,7 +5,7 @@ import {
 
 import { IThemeManager } from '@jupyterlab/apputils';
 
-import pallettes from './pallettes';
+import palettes from './palettes';
 
 /**
  * Initialization data for the rose_pine_jupyterlab extension.
@@ -19,12 +19,12 @@ const plugin: JupyterFrontEndPlugin<void> = {
     // console.log('JupyterLab extension rose_pine_jupyterlab is activated!');
     const style = 'rose_pine_jupyterlab/index.css';
 
-    pallettes.forEach(pallette => {
+    palettes.forEach(palette => {
       manager.register({
-        name: pallette.name,
-        isLight: pallette.type === 'light',
+        name: palette.name,
+        isLight: palette.type === 'light',
         load: () => {
-          pallette.setColorPallette();
+          palette.setColorPalette();
           return manager.loadCSS(style);
         },
         unload: () => Promise.resolve(undefined)

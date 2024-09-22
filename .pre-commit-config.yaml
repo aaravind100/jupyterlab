@@ -10,7 +10,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.5.4
+    rev: v0.6.7
     hooks:
       - id: ruff
       - id: ruff-format
@@ -19,9 +19,14 @@ repos:
     rev: v4.0.0-alpha.8
     hooks:
       - id: prettier
-        types_or: [css, javascript, json, markdown]
+        types_or: [css, javascript, json, markdown, ts]
 
   - repo: https://github.com/kynan/nbstripout
     rev: 0.7.1
     hooks:
       - id: nbstripout
+
+  - repo: https://github.com/crate-ci/typos
+    rev: v1.24.6
+    hooks:
+      - id: typos

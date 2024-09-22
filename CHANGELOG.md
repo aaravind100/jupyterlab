@@ -100,7 +100,7 @@
 
 ### Enhancements made
 
-- refactor: :recycle: Pallette implementation out of loop [#5](https://github.com/aaravind100/jupyterlab/pull/5) ([@aaravind100](https://github.com/aaravind100))
+- refactor: :recycle: Palette implementation out of loop [#5](https://github.com/aaravind100/jupyterlab/pull/5) ([@aaravind100](https://github.com/aaravind100))
 
 ### Contributors to this release
 
@@ -114,7 +114,7 @@
 
 ### Enhancements made
 
-- refactor: :recycle: move pallette to a json file [#4](https://github.com/aaravind100/jupyterlab/pull/4) ([@aaravind100](https://github.com/aaravind100))
+- refactor: :recycle: move palette to a json file [#4](https://github.com/aaravind100/jupyterlab/pull/4) ([@aaravind100](https://github.com/aaravind100))
 
 ### Contributors to this release
 

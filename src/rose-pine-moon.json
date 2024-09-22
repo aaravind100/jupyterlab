@@ -1,7 +1,7 @@
 {
   "name": "Rosé Pine Moon",
   "type": "dark",
-  "pallette": {
+  "palette": {
     "--rp-plt-base": "#232136",
     "--rp-plt-surface": "#2a273f",
     "--rp-plt-overlay": "#393552",

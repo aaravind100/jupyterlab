@@ -1,7 +1,7 @@
 {
   "name": "Rosé Pine Dawn",
   "type": "light",
-  "pallette": {
+  "palette": {
     "--rp-plt-base": "#faf4ed",
     "--rp-plt-surface": "#fffaf3",
     "--rp-plt-overlay": "#f2e9e1",
