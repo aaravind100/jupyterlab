@@ -16,6 +16,7 @@
     "--rp-plt-iris": "$iris",
     "--rp-plt-highlight-low": "$highlightLow",
     "--rp-plt-highlight-med": "$highlightMed",
-    "--rp-plt-highlight-high": "$highlightHigh"
+    "--rp-plt-highlight-high": "$highlightHigh",
+    "--rp-plt-white": "#faf4ed"
   }
 }
