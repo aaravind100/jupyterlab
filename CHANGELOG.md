@@ -2,6 +2,24 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.1.13
+
+([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.1.12...4dcbc88f77eddafff4ed9dd98853e7dc826ad203))
+
+### Maintenance and upkeep improvements
+
+- update template to v4.3.6 [#23](https://github.com/aaravind100/jupyterlab/pull/23) ([@aaravind100](https://github.com/aaravind100))
+- chore: update ci checks [#22](https://github.com/aaravind100/jupyterlab/pull/22) ([@aaravind100](https://github.com/aaravind100))
+- chore: :construction_worker: update pre commit hooks [#21](https://github.com/aaravind100/jupyterlab/pull/21) ([@aaravind100](https://github.com/aaravind100))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2024-09-22&to=2024-11-21&type=c))
+
+[@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2024-09-22..2024-11-21&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.1.12
 
 ([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.1.11...de08e3a0593edb24fff351e26d609e5a95477b49))
@@ -20,8 +38,6 @@
 ([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2024-09-22&to=2024-09-22&type=c))
 
 [@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2024-09-22..2024-09-22&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.1.11
 
