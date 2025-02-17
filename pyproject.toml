@@ -78,7 +78,7 @@ before-build-python = ["jlpm clean:all"]
 ignore = ["W002"]
 
 [tool.ruff]
-target-version = "py38"
+target-version = "py39"
 line-length = 88
 indent-width = 4
 extend-include = ["*.ipynb"]
