@@ -16,7 +16,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: pre-commit
         uses: pre-commit/action@v3.0.1
-      - name: prettier
-        uses: creyD/prettier_action@v4.3
-        with:
-          prettier_options: --write **/*.{css,js,json,md,ts}
+      # - name: prettier
+      #   uses: creyD/prettier_action@v4.3
+      #   with:
+      #     prettier_options: --write **/*.{css,js,json,md,ts}
