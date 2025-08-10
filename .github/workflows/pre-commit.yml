@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: pre-commit
-        uses: pre-commit/action@v3.0.1
+        uses: tox-dev/action-pre-commit-uv@v1
       # - name: prettier
       #   uses: creyD/prettier_action@v4.3
       #   with:
