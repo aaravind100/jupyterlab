@@ -2,6 +2,24 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.2.2
+
+([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.2.1...787491c23537a0a16efcc64917a3dbcc964d224a))
+
+### Maintenance and upkeep improvements
+
+- update template to v4.5.0 [#31](https://github.com/aaravind100/jupyterlab/pull/31) ([@aaravind100](https://github.com/aaravind100))
+- replace pre-commit with prek [#30](https://github.com/aaravind100/jupyterlab/pull/30) ([@aaravind100](https://github.com/aaravind100))
+- use uv with pre-commit [#29](https://github.com/aaravind100/jupyterlab/pull/29) ([@aaravind100](https://github.com/aaravind100))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2025-08-06&to=2025-10-30&type=c))
+
+[@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2025-08-06..2025-10-30&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.2.1
 
 ([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.2.0...a453d6e9efe48c891dfe3a5ea5fd6ad7730aa8ff))
@@ -15,8 +33,6 @@
 ([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2025-02-17&to=2025-08-06&type=c))
 
 [@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2025-02-17..2025-08-06&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.2.0
 
