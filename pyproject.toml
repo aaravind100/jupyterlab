@@ -10,7 +10,7 @@ build-backend = "hatchling.build"
 name = "rose_pine_jupyterlab"
 readme = "readme.md"
 license = { file = "license" }
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 classifiers = [
     "Framework :: Jupyter",
     "Framework :: Jupyter :: JupyterLab",
@@ -21,11 +21,11 @@ classifiers = [
     "License :: OSI Approved :: BSD License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
 ]
 dependencies = []
 dynamic = ["version", "description", "authors", "urls", "keywords"]
@@ -78,7 +78,7 @@ before-build-python = ["jlpm clean:all"]
 ignore = ["W002"]
 
 [tool.ruff]
-target-version = "py39"
+target-version = "py310"
 line-length = 88
 indent-width = 4
 extend-include = ["*.ipynb"]
