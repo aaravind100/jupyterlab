@@ -2,6 +2,22 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.3.0
+
+([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.2.2...7629fc41357c37b965444d926f227b0ece7705e7))
+
+### Maintenance and upkeep improvements
+
+- update template to v4.5.1 [#32](https://github.com/aaravind100/jupyterlab/pull/32) ([@aaravind100](https://github.com/aaravind100))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2025-10-30&to=2025-12-01&type=c))
+
+[@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2025-10-30..2025-12-01&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.2.2
 
 ([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.2.1...787491c23537a0a16efcc64917a3dbcc964d224a))
@@ -17,8 +33,6 @@
 ([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2025-08-06&to=2025-10-30&type=c))
 
 [@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2025-08-06..2025-10-30&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.2.1
 
