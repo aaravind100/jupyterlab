@@ -2,6 +2,32 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.3.1
+
+([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.3.0...8b19092de932f6b104a95e1d6658570ee65244d5))
+
+### Bugs fixed
+
+- fix: :bug: add missing styles for search [#38](https://github.com/aaravind100/jupyterlab/pull/38) ([@aaravind100](https://github.com/aaravind100))
+
+### Maintenance and upkeep improvements
+
+- ci: :construction_worker: update ci checks [#36](https://github.com/aaravind100/jupyterlab/pull/36) ([@aaravind100](https://github.com/aaravind100))
+- ci: :construction_worker: update ci checks [#35](https://github.com/aaravind100/jupyterlab/pull/35) ([@aaravind100](https://github.com/aaravind100))
+- Potential fix for code scanning alert no. 6: Workflow does not contain permissions [#34](https://github.com/aaravind100/jupyterlab/pull/34) ([@aaravind100](https://github.com/aaravind100))
+- update template to v4.5.2 [#33](https://github.com/aaravind100/jupyterlab/pull/33) ([@aaravind100](https://github.com/aaravind100))
+
+### Contributors to this release
+
+The following people contributed discussions, new ideas, code and documentation contributions, and review.
+See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
+
+([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2025-12-01&to=2026-04-01&type=c))
+
+@aaravind100 ([activity](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2025-12-01..2026-04-01&type=Issues))
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.3.0
 
 ([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.2.2...7629fc41357c37b965444d926f227b0ece7705e7))
@@ -15,8 +41,6 @@
 ([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2025-10-30&to=2025-12-01&type=c))
 
 [@aaravind100](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2025-10-30..2025-12-01&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.2.2
 
