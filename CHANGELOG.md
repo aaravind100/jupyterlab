@@ -2,6 +2,25 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.3.2
+
+([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.3.1...19f61f190d22d920286d19d1e7b458c4eb7a7f2a))
+
+### Enhancements made
+
+- add missing css styles from jupyter light/dark themes [#39](https://github.com/aaravind100/jupyterlab/pull/39) ([@aaravind100](https://github.com/aaravind100))
+
+### Contributors to this release
+
+The following people contributed discussions, new ideas, code and documentation contributions, and review.
+See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
+
+([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2026-04-01&to=2026-04-09&type=c))
+
+@aaravind100 ([activity](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2026-04-01..2026-04-09&type=Issues))
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.3.1
 
 ([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.3.0...8b19092de932f6b104a95e1d6658570ee65244d5))
@@ -25,8 +44,6 @@ See [our definition of contributors](https://github-activity.readthedocs.io/en/l
 ([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2025-12-01&to=2026-04-01&type=c))
 
 @aaravind100 ([activity](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2025-12-01..2026-04-01&type=Issues))
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.3.0
 
