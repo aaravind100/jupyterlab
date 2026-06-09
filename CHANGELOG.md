@@ -2,6 +2,26 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.3.3
+
+([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.3.2...067d2b506704b85ff473f8b8e5ca7f13164c6f47))
+
+### Maintenance and upkeep improvements
+
+- ci: :green_heart: add jupyter-builder to publish release [#41](https://github.com/aaravind100/jupyterlab/pull/41) ([@aaravind100](https://github.com/aaravind100))
+- update template to v4.6.0 [#40](https://github.com/aaravind100/jupyterlab/pull/40) ([@aaravind100](https://github.com/aaravind100))
+
+### Contributors to this release
+
+The following people contributed discussions, new ideas, code and documentation contributions, and review.
+See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
+
+([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2026-04-09&to=2026-06-09&type=c))
+
+@aaravind100 ([activity](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2026-04-09..2026-06-09&type=Issues))
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.3.2
 
 ([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.3.1...19f61f190d22d920286d19d1e7b458c4eb7a7f2a))
@@ -18,8 +38,6 @@ See [our definition of contributors](https://github-activity.readthedocs.io/en/l
 ([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2026-04-01&to=2026-04-09&type=c))
 
 @aaravind100 ([activity](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2026-04-01..2026-04-09&type=Issues))
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.3.1
 
