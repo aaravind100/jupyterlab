@@ -30,8 +30,6 @@ jobs:
       contents: write
     steps:
       - uses: jupyterlab/maintainer-tools/.github/actions/base-setup@v1
-      - name: Install Jupyter Builder
-        run: pip install -U "jupyter-builder>=1.0.0,<2"
       - name: Prep Release
         id: prep-release
         uses: jupyter-server/jupyter_releaser/.github/actions/prep-release@v2
