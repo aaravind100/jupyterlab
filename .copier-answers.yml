@@ -1,9 +1,12 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: v4.5.2
+_commit: v4.6.0
 _src_path: https://github.com/jupyterlab/extension-template
+advanced: true
 author_email: ajith.aravind100@gmail.com
 author_name: Ajith Aravind
-has_ai_rules: false
+create_claude_symlink: true
+create_gemini_symlink: true
+has_ai_rules: true
 has_binder: false
 has_settings: false
 kind: theme
@@ -12,3 +15,4 @@ project_short_description: Soho Vibes for JupyterLab
 python_name: rose_pine_jupyterlab
 repository: https://github.com/aaravind100/jupyterlab
 test: false
+yarn_linker: node-modules

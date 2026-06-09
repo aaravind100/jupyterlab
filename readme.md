@@ -50,7 +50,45 @@ pip uninstall rose-pine-jupyterlab
 
 ## Contributing
 
-See [CONTRIBUTING](contributing.md)
+If you would like to contribute to this extension, please refer to the [Contributing Guide](contributing.md).
+
+## AI Coding Assistant Support
+
+This project includes an `AGENTS.md` file with coding standards and best practices for JupyterLab extension development. The file follows the [AGENTS.md standard](https://agents.md) for cross-tool compatibility.
+
+### Compatible AI Tools
+
+`AGENTS.md` works with AI coding assistants that support the standard, including Cursor, GitHub Copilot, Windsurf, Aider, and others. For a current list of compatible tools, see [the AGENTS.md standard](https://agents.md).
+This project also includes symlinks for tool-specific compatibility:
+
+- `CLAUDE.md` → `AGENTS.md` (for Claude Code)
+
+- `GEMINI.md` → `AGENTS.md` (for Gemini Code Assist)
+
+Other conventions you might encounter:
+
+- `.cursorrules` - Cursor's YAML/JSON format (Cursor also supports AGENTS.md natively)
+- `CONVENTIONS.md` / `contributing.md` - For CodeConventions.ai and GitHub bots
+- Project-specific rules in JetBrains AI Assistant settings
+
+All tool-specific files should be symlinks to `AGENTS.md` as the single source of truth.
+
+### What's Included
+
+The `AGENTS.md` file provides guidance on:
+
+- Code quality rules and file-scoped validation commands
+- Naming conventions for packages, plugins, and files
+- Coding standards (TypeScript)
+- Development workflow and debugging
+- Theme-specific patterns (CSS organization, light/dark modes, `IThemeManager`)
+- Common pitfalls and how to avoid them
+
+### Customization
+
+You can edit `AGENTS.md` to add project-specific conventions or adjust guidelines to match your team's practices. The file uses plain Markdown with Do/Don't patterns and references to actual project files.
+
+**Note**: `AGENTS.md` is living documentation. Update it when you change conventions, add dependencies, or discover new patterns. Include `AGENTS.md` updates in commits that modify workflows or coding standards.
 
 ## Thanks to
 

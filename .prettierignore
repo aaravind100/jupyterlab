@@ -4,3 +4,5 @@ node_modules
 **/package.json
 !/package.json
 rose_pine_jupyterlab
+eslint.config.mjs
+.venv
