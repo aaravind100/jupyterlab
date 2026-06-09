@@ -21,6 +21,9 @@ jobs:
     steps:
       - uses: jupyterlab/maintainer-tools/.github/actions/base-setup@v1
 
+      - name: Install Jupyter Builder
+        run: pip install -U "jupyter-builder>=1.0.0,<2"
+
       - uses: actions/create-github-app-token@v1
         id: app-token
         with:
