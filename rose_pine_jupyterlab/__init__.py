@@ -7,7 +7,8 @@ except ImportError:
     import warnings
 
     warnings.warn(
-        "Importing 'rose_pine_jupyterlab' outside a proper installation.", stacklevel=2
+        "Importing 'rose_pine_jupyterlab' outside a proper installation.",
+        stacklevel=2,
     )
     __version__ = "dev"
 

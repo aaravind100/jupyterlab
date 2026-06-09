@@ -16,7 +16,9 @@ npx @rose-pine/build@latest -t src/templates.json -o src/
 
 ## Development install
 
-Note: You will need NodeJS to build the extension package.
+Note: You will need Node.js to build the extension package.
+You may install it from [nodejs.org](https://nodejs.org/en/download). We
+recommend using the latest LTS version of Node.js.
 
 The `jlpm` command is JupyterLab's pinned version of
 [yarn](https://yarnpkg.com/) that is installed with JupyterLab. You may use
@@ -25,11 +27,18 @@ The `jlpm` command is JupyterLab's pinned version of
 ```bash
 # Clone the repo to your local environment
 # Change directory to the rose_pine_jupyterlab directory
-# Install package in development mode
-pip install -e "."
+
+# Set up a virtual environment and install package in development mode
+python -m venv .venv
+source .venv/bin/activate
+pip install --editable "."
+
 # Link your development version of the extension with JupyterLab
-jupyter labextension develop . --overwrite
+jupyter-builder develop . --overwrite
+
 # Rebuild extension Typescript source after making changes
+# IMPORTANT: Unlike the steps above which are performed only once, do this step
+# every time you make a change.
 jlpm build
 ```
 
@@ -56,9 +65,9 @@ jupyter lab build --minimize=False
 pip uninstall rose-pine-jupyterlab
 ```
 
-In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
+In development mode, you will also need to remove the symlink created by `jupyter-builder develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `rose-pine-jupyterlab` within that folder.
+folder is located. Then you can remove the symlink named `rose_pine_jupyterlab` within that folder.
 
 ## Packaging the extension
 
