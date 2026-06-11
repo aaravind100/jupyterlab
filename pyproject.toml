@@ -30,6 +30,12 @@ classifiers = [
 dependencies = []
 dynamic = ["version", "description", "authors", "urls", "keywords"]
 
+[project.optional-dependencies]
+dev = [
+    "jupyterlab>=4",
+    "jupyter-builder>=1.0.0",
+]
+
 [tool.hatch.version]
 source = "nodejs"
 
