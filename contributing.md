@@ -4,14 +4,14 @@ This is built using the jupyterlab [extension-template](https://github.com/jupyt
 
 ## Rose Pine Build
 
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
+> Prefer using [rose-pine-bloom](https://github.com/rose-pine/rose-pine-bloom) when possible
 
 This is used to generate color variant from the template file.
 
 Modify `style/variables.css` & `src/template.json` using Rosé Pine variables, then build variants:
 
 ```sh
-npx @rose-pine/build@latest -t src/templates.json -o src/
+bloom build src/templates.json -o src/
 ```
 
 ## Development install
