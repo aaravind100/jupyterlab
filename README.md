@@ -50,7 +50,7 @@ pip uninstall rose-pine-jupyterlab
 
 ## Contributing
 
-If you would like to contribute to this extension, please refer to the [Contributing Guide](contributing.md).
+If you would like to contribute to this extension, please refer to the [Contributing Guide](CONTRIBUTING.md).
 
 ## AI Coding Assistant Support
 
