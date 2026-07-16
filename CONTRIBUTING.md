@@ -71,4 +71,4 @@ folder is located. Then you can remove the symlink named `rose_pine_jupyterlab` 
 
 ## Packaging the extension
 
-See [RELEASE](release.md)
+See [RELEASE](RELEASE.md)
