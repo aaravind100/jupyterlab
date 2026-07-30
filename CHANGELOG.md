@@ -2,6 +2,29 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.3.4
+
+([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.3.3...9a1cba233dd458fcffe9ad8aae28ded51596bcce))
+
+### Maintenance and upkeep improvements
+
+- update template to v4.6.3 [#47](https://github.com/aaravind100/jupyterlab/pull/47) ([@aaravind100](https://github.com/aaravind100))
+- rename files [#45](https://github.com/aaravind100/jupyterlab/pull/45) ([@aaravind100](https://github.com/aaravind100))
+- migrate to rose pine bloom [#44](https://github.com/aaravind100/jupyterlab/pull/44) ([@aaravind100](https://github.com/aaravind100))
+- chore: :wrench: update template to v4.6.2 [#43](https://github.com/aaravind100/jupyterlab/pull/43) ([@aaravind100](https://github.com/aaravind100))
+- Test fix for `extension-template` migration issue [#42](https://github.com/aaravind100/jupyterlab/pull/42) ([@krassowski](https://github.com/krassowski), [@aaravind100](https://github.com/aaravind100))
+
+### Contributors to this release
+
+The following people contributed discussions, new ideas, code and documentation contributions, and review.
+See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
+
+([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2026-06-09&to=2026-07-30&type=c))
+
+@aaravind100 ([activity](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2026-06-09..2026-07-30&type=Issues)) | @krassowski ([activity](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Akrassowski+updated%3A2026-06-09..2026-07-30&type=Issues))
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.3.3
 
 ([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.3.2...067d2b506704b85ff473f8b8e5ca7f13164c6f47))
@@ -19,8 +42,6 @@ See [our definition of contributors](https://github-activity.readthedocs.io/en/l
 ([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2026-04-09&to=2026-06-09&type=c))
 
 @aaravind100 ([activity](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2026-04-09..2026-06-09&type=Issues))
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.3.2
 
