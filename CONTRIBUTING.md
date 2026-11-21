@@ -31,7 +31,7 @@ The `jlpm` command is JupyterLab's pinned version of
 # Set up a virtual environment and install package in development mode
 python -m venv .venv
 source .venv/bin/activate
-pip install --editable "."
+pip install --editable ".[dev]"
 
 # Link your development version of the extension with JupyterLab
 jupyter-builder develop . --overwrite
