@@ -2,6 +2,27 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.4.0
+
+([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.3.4...f63a0d349fc31d88d0f61381c773b2634dcad4e8))
+
+### Maintenance and upkeep improvements
+
+- update template to v4.7.0 [#50](https://github.com/aaravind100/jupyterlab/pull/50) ([@aaravind100](https://github.com/aaravind100))
+- update template to v4.6.5 [#49](https://github.com/aaravind100/jupyterlab/pull/49) ([@aaravind100](https://github.com/aaravind100))
+- update template to v4.6.4 [#48](https://github.com/aaravind100/jupyterlab/pull/48) ([@aaravind100](https://github.com/aaravind100))
+
+### Contributors to this release
+
+The following people contributed discussions, new ideas, code and documentation contributions, and review.
+See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
+
+([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2026-07-30&to=2026-11-21&type=c))
+
+@aaravind100 ([activity](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2026-07-30..2026-11-21&type=Issues))
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.3.4
 
 ([Full Changelog](https://github.com/aaravind100/jupyterlab/compare/v0.3.3...9a1cba233dd458fcffe9ad8aae28ded51596bcce))
@@ -22,8 +43,6 @@ See [our definition of contributors](https://github-activity.readthedocs.io/en/l
 ([GitHub contributors page for this release](https://github.com/aaravind100/jupyterlab/graphs/contributors?from=2026-06-09&to=2026-07-30&type=c))
 
 @aaravind100 ([activity](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Aaaravind100+updated%3A2026-06-09..2026-07-30&type=Issues)) | @krassowski ([activity](https://github.com/search?q=repo%3Aaaravind100%2Fjupyterlab+involves%3Akrassowski+updated%3A2026-06-09..2026-07-30&type=Issues))
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.3.3
 
